@@ -1,76 +1,82 @@
-header{
-    display: flex;
-    padding: 0;  
+header {
+  display: flex;
+  padding: 0;
 }
 
-footer{
-    margin-top: 10px;
+.nav-link {
+  color: rgb(23, 7, 78);
+  font-size: large;
 }
 
-.nav-link{
-    color: rgb(23, 7, 78);
-    font-size: large;
-}
-.introduction{
-    display: flex;
-    padding: 10px;
-    padding-bottom: 50px;
-}
-.intro-text{
-    padding: 20px;
-}
-.intro-text-sub{
-    font-size: large;
-    color: rgb(16, 99, 99);
-}
-.event-details{
-    display: flex;
-    padding-top: 80px;  
-     
-}
-.event-topic{
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: underline;
-    
-}   
-
-.Q{
-    font-family: cursive;
-    color: darkblue;
+.canva {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://media.istockphoto.com/id/1223530934/vector/magnifying-glass-pattern-silhouette-1.jpg?s=612x612&w=0&k=20&c=FROhFc0sz_ysYas_8CMFI4fcnhIgTKqa8h6VSZXiJ58=");
 }
 
-.A{
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(99, 43, 91);
-    font-size: larger;
-    font-weight: bold;
-
+footer {
+  margin-top: 10px;
 }
 
-.reg-form{
-     background-color: white;
-    margin: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 50px;
+.introduction {
+  display: flex;
+  padding: 10px;
+  padding-bottom: 50px;
+}
+.intro-text {
+  padding: 20px;
+}
+.intro-text-sub {
+  font-size: large;
+  color: rgb(16, 99, 99);
+}
+.event-details {
+  display: flex;
+  padding-top: 80px;
+}
+.event-topic {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: underline;
 }
 
-.team-photo{
-    width: 100%;
-    height: 500px;
-    background-image: url("Sources/PocketSupTeam.JPG");
-    background-size: cover;
+.Q {
+  font-family: cursive;
+  color: darkblue;
 }
 
-.about-us-text{
-    color: aliceblue;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.5 );
-    height: 100%;
-    width: 100%;
-    padding: 50px;
+.A {
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(99, 43, 91);
+  font-size: larger;
+  font-weight: bold;
+}
+
+.reg-form {
+  background-color: white;
+  margin: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 50px;
+}
+
+.team-photo {
+  width: 100%;
+  height: 500px;
+  background-image: url("Sources/PocketSupTeam.JPG");
+  background-size: cover;
+}
+
+.about-us-text {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  padding: 50px;
 }
